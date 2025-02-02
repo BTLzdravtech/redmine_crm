@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.0.0"
 
   spec.add_runtime_dependency 'rails'
-  spec.add_runtime_dependency 'liquid', '< 2.6.4'
+  spec.add_runtime_dependency 'liquid'
   spec.add_runtime_dependency 'rubyzip'
 
   spec.add_development_dependency 'sqlite3'
