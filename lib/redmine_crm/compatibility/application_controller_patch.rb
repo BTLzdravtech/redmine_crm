@@ -3,9 +3,6 @@ module RedmineCrm
     module ApplicationControllerPatch
       def self.included(base) # :nodoc:
         base.extend(ClassMethods)
-        base.class_eval do
-          unloadable # Send unloadable so it will not be unloaded in development
-        end
       end
 
       module ClassMethods
